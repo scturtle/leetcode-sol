@@ -10,8 +10,8 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        if isBadVersion(l):
-            return l
+        if isBadVersion(1):
+            return 1
         l, r = 1, n
         while l+1 != r:
             m = (l+r) / 2
